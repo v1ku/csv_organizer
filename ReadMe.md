@@ -1,4 +1,10 @@
-Run as  
+Run   
+
+
+```sh
+$ pip install pandas --user
+```
+Then 
 
 ```sh
 $ python .\organizer.py -o <output_file_name> -i <input_folder_name> -c <csv_with_criteria>
