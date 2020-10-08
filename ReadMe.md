@@ -16,6 +16,8 @@ or
 $ python organizer.py --output <output_file_name> --inputs <input_folder_name> --criteria <csv_with_criteria>
 ```
 
+
+
 (output_file_name) is to be in the format 'path/to/output/folder/output_file_name.csv' or alternatively 'path/to/output/folder', with or without single quotes. If output folder is given without filename it will create and store output in csv file with current time as name.
 
 (input_folder_name) is the path to the folder containing all the input files, given as 'path/to/input/folder'.
@@ -23,3 +25,10 @@ $ python organizer.py --output <output_file_name> --inputs <input_folder_name> -
 
 
 
+Example
+
+```sh
+
+$ python organizer.py -o C:\temp\outputFileName.csv -i C:\temp\inputFolderName -c C:\temp\criteriaFileName.csv
+
+```
