@@ -25,10 +25,10 @@ $ python organizer.py --output <output_file_name> --inputs <input_folder_name> -
 
 
 
-Example
+Example [Windows]
 
 ```sh
 
-$ python organizer.py -o C:\temp\outputFileName.csv -i C:\temp\inputFolderName -c C:\temp\criteriaFileName.csv
+python organizer.py -o C:\temp\outputFileName.csv -i C:\temp\inputFolderName -c C:\temp\criteriaFileName.csv
 
 ```
