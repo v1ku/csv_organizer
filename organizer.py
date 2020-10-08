@@ -4,12 +4,9 @@ import pandas as pd
 import argparse
 
 parser = argparse.ArgumentParser(description='Join csv files based on keys present in another input file')
-parser.add_argument('--criteria', default= './csv/keys.csv', nargs="?",
-                    help='input file location')
-parser.add_argument('--inputs', default = './csv/inputs', nargs="?",
-                    help='sum the integers (default: find the max)')
-parser.add_argument('--output', default = "./csv/output.csv", nargs="?",
-                    help='sum the integers (default: find the max)')
+parser.add_argument('--criteria', help='input file location')
+parser.add_argument('--inputs', help='sum the integers (default: find the max)')
+parser.add_argument('--output', help='sum the integers (default: find the max)')
 args = parser.parse_args()
 
 keys_df = pd.read_csv(args.criteria)
